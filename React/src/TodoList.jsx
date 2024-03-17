@@ -52,11 +52,12 @@ function TodoList() {
   };
 
   return (
-    
+
     <div>
-      <h1>Todo List</h1>
-      <div>
+      <h1>D's Todo List</h1>
+      <div   className='input1'>
         <input
+        className='inp1'
           type="text"
           value={inputValue}
           onChange={handleInputChange}
@@ -69,7 +70,7 @@ function TodoList() {
       <ul>
         {todos.map((todo, index) => (
           <li key={index}>
-            {index === editIndex ? (
+            {(index === editIndex) ? (
               <>
                 <input
                   type="text"

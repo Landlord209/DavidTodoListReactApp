@@ -12,7 +12,18 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.input1{
+  display: flex;
+  width: 300px;
+  align-items: center;
+  /* background-color: saddlebrown; */
+  justify-content: space-between;
+}
+.inp1{
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+}
 a {
   font-weight: 500;
   color: #646cff;
